@@ -24,9 +24,6 @@ const Navbar = () => {
           <Link href={"/"} className="hover:text-gray-900/60">
             Home
           </Link>
-          <Link href={"About"} className="hover:text-gray-900/60">
-            About
-          </Link>
           <Link href={"Services"} className="hover:text-gray-900/60">
             Services
           </Link>
@@ -49,9 +46,6 @@ const Navbar = () => {
         <div className="md:hidden bg-backgrounds shadow-black/10 shadow-md my-2 mx-4 p-4 font-semibold text-sm rounded-xl tracking-wider flex-col flex gap-2">
           <Link href={"/"} className=" block">
             Home
-          </Link>
-          <Link href={"About"} className="block">
-            About
           </Link>
           <Link href={"Services"} className="block">
             Services

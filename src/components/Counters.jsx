@@ -15,7 +15,7 @@ const Counters = () => {
   }, []);
 
   return (
-    <div className="text-7xl flex flex-col md:flex-row md:gap-6 gap-5 lg:gap-20 justify-center items-center md:my-32 my-0 text-primary text-opacity-60 font-bold ">
+    <div className="text-7xl flex flex-col md:flex-row md:gap-6 gap-5 lg:gap-20 justify-center items-center md:mt-32 md:mb-5 my-0 text-primary text-opacity-60 font-bold ">
       <div className="flex flex-col justify-center items-center gap-1">
         <IoIosPeople />
         <div className="flex text-base justify-center">

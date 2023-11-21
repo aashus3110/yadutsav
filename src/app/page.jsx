@@ -4,10 +4,9 @@ import React from "react";
 import Event from "@/assets/unevent.jpg";
 import TextBox from "@/components/TextBox";
 import { motion } from "framer-motion";
-import About from "./About/page";
 import Contact from "./Contact/page";
-import Services from "./Services/page";
 import Counters from "@/components/Counters";
+import ServicesC from "@/components/ServicesC";
 
 const Home = () => {
   return (
@@ -45,7 +44,7 @@ const Home = () => {
         </motion.div>
 
         {/* Text Section */}
-        <div className="md:w-1/2 w-full mx-auto py-10 md:py-20 px-0">
+        <div className="md:w-1/2 w-full mx-auto py-10 md:py-20 px-5">
           {/* Title Animation */}
           <motion.div
             whileInView={{ y: 0, scale: [0, 0.5, 1] }}
@@ -98,8 +97,7 @@ const Home = () => {
         </div>
       </div>
       <Counters />
-      <About />
-      <Services />
+      <ServicesC />
       <Contact />
     </>
   );
